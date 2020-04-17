@@ -1,3 +1,5 @@
+const colorPrincipal = require('./ColorsDesing')
+
 module.exports = {
   prefix: '',
   important: false,
@@ -14,6 +16,26 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+
+      colorPrincipalPrimary: {
+        ...colorPrincipal.primary
+      },
+
+      colorPrincipalInfo: {
+        ...colorPrincipal.info
+      },
+
+      colorPrincipalSuccess: {
+        ...colorPrincipal.success
+      },
+
+      colorPrincipalWarning: {
+        ...colorPrincipal.warning
+      },
+
+      colorPrincipalDanger: {
+        ...colorPrincipal.danger
+      },
 
       gray: {
         100: '#f7fafc',
