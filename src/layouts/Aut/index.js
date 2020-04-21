@@ -40,7 +40,7 @@ const AutPrincipal = (props) => {
             </div>
           </div>
         </div>
-        <div className='bg-gray-300 xs:col-span-12 md:col-span-6 lg:col-span-12 xl:col-span-5'>
+        <div className='bg-gray-200 xs:col-span-12 md:col-span-6 lg:col-span-12 xl:col-span-5'>
           <Switch>{getRoutes(routes)}</Switch>
         </div>
       </div>
